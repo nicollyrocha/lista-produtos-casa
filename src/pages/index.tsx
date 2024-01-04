@@ -9,7 +9,7 @@ export const MainPage = () => {
  };
 
  return (
-  <div className="flex flex-col items-center bg-neutral-300 h-screen">
+  <div className="flex flex-col items-center">
    <div className="mt-56 w-full flex flex-col items-center gap-10">
     <div className="font-bold text-lg">Nicolly & Cleber</div>
     <div className="bg-neutral-500 rounded-md w-4/12 flex flex-col items-center gap-5">
