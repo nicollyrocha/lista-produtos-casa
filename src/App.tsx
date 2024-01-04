@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
 import { MainPage } from "./pages";
-import Parse from "parse/dist/parse.min.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ProductsPage } from "./pages/products";
+const Parse = require("parse");
 
 const PARSE_APPLICATION_ID = "ozTBEYNRXjQjaZbCviVSZnbkNoILGOP5xruy92IY";
 const PARSE_HOST_URL = "https://parseapi.back4app.com/";
